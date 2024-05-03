@@ -1,1 +1,7 @@
 # MBIST-Controller-using-Verilog
+Due to the growing demands of faster performance,less power consumption, & less area consumption, embedded memories used in the VLSI industry are compactly designed to
+operate at higher frequencies and store massive data. Dense design creates a wide variety of faults leading to the failures in the memory functions. These Memories are non-scan storage elements, i.e., they cannot be tested by simply replacing the memory cell using scan-cells in scan-based design. To test semiconductor memories, one of the most widely
+used techniques is MBIST (Memory Built-in Self-Test). BIST mechanism is a promising method to test and diagnose embedded emories like RAMs. The advantages include reduced test
+cycle duration and fewer complexes. March tests are widely used in production test thanks to their low time complexity and high fault coverage. The primary purpose of this project
+is to implement MBIST using the MARCH algorithm on an 4x4 memory cell and detect stuck-at faults, transition faults & coupling faults. The proposed BIST architecture focuses on
+minimizing power consumption during the testing phase while maintaining high fault coverage. It leverages the capabilities of the Verilog hardware description language to model and simulate the design. The implementations are carried out by using Verilog Hardware description language and ModelSim for waveform generation.
